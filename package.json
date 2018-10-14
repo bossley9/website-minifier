@@ -1,0 +1,29 @@
+{
+  "name": "website-minifier",
+  "main": "./lib/website-minifier",
+  "version": "0.0.0",
+  "description": "An HTML, CSS, and JS minifier for Atom",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "minifier",
+    "minify",
+    "website"
+  ],
+  "activationCommands": {
+    "atom-workspace": "website-minifier:toggle"
+  },
+  "repository": "https://github.com/bossley9/website-minifier",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

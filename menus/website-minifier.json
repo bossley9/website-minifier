@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle website-minifier",
+        "command": "website-minifier:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "website-minifier",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "website-minifier:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

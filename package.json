@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "An HTML, CSS, and JS minifier for Atom",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers js:babel-core/register spec/"
   },
   "keywords": [
     "HTML",
@@ -22,7 +22,17 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
   "dependencies": {
+    "atom": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
   }

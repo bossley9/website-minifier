@@ -15,7 +15,7 @@
     "website"
   ],
   "activationCommands": {
-    "atom-workspace": "website-minifier:toggle"
+    "atom-workspace": "website-minifier:minify"
   },
   "repository": "https://github.com/bossley9/website-minifier",
   "license": "MIT",
@@ -28,7 +28,9 @@
     ]
   },
   "dependencies": {
-    "atom": "^1.1.0"
+    "atom": "^1.1.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

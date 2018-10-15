@@ -1,10 +1,7 @@
 {
   "context-menu": {
     "atom-text-editor": [
-      {
-        "label": "Toggle website-minifier",
-        "command": "website-minifier:toggle"
-      }
+      {}
     ]
   },
   "menu": [
@@ -14,10 +11,18 @@
         {
           "label": "website-minifier",
           "submenu": [
-            {
-              "label": "Toggle",
-              "command": "website-minifier:toggle"
-            }
+            { "label": "Minify",  "command": "website-minifier:minify" },
+
+            { "type" : "separator" },
+
+            { "label": "Options", "submenu": [
+
+              { "label": "Minify",  "command": "website-minifier:minify" },
+              { "label": "Minify",  "command": "website-minifier:minify" },
+              { "label": "Minify",  "command": "website-minifier:minify" }
+
+            ] }
+
           ]
         }
       ]

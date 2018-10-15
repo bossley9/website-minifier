@@ -1,6 +1,7 @@
 'use babel';
 
 import WebsiteMinifier from '../lib/website-minifier';
+import {assert} from 'chai';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
@@ -14,7 +15,7 @@ describe('WebsiteMinifier', () => {
     workspaceElement = atom.views.getView(atom.workspace);
     activationPromise = atom.packages.activatePackage('website-minifier');
   });
-
+/*
   describe('when the website-minifier:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
@@ -70,4 +71,5 @@ describe('WebsiteMinifier', () => {
       });
     });
   });
+  */
 });

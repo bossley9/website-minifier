@@ -1,0 +1,6 @@
+html, body {
+  /* test comments */
+  height: 100%;
+  min-height: 100%;
+  content: "this is a test of special characters within css strings. For example, /* and */ should be disregarded.";
+}

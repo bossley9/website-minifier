@@ -13,15 +13,7 @@
           "submenu": [
             { "label": "Minify",  "command": "website-minifier:minify" },
 
-            { "type" : "separator" },
-
-            { "label": "Options", "submenu": [
-
-              { "label": "Minify",  "command": "website-minifier:minify" },
-              { "label": "Minify",  "command": "website-minifier:minify" },
-              { "label": "Minify",  "command": "website-minifier:minify" }
-
-            ] }
+            { "type" : "separator" }
 
           ]
         }

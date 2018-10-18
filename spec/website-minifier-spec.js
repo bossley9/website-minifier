@@ -13,5 +13,4 @@ describe('website-minifier', () => {
     activationPromise = atom.packages.activatePackage('website-minifier');
   });
 
-
 });

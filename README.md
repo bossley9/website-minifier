@@ -1,4 +1,4 @@
-# website-minifier #
+# website-minifier
 
 This plugin aims to reduce webpage loading speeds by minifying HTML, CSS, and JS files.
 
@@ -33,9 +33,9 @@ index.html:
 The website-minifier plugin can be activated by selecting
 "Packages > website-minifier > minify" in the menu, or by pressing CTRL+ALT+M.
 
-## New Features: ##
+## New Features:
 
-### Babel/ES6 support now added! ###
+### Babel/ES6 support now added!
 If inline Javacript is enabled, website-minifier will inline all scripts,
 including scripts containing ECMAScript 2015 specifications.
 
@@ -52,9 +52,9 @@ var random = function(x) {
 }
 ```
 
-## Suggestions? ##
+## Suggestions?
 
 If there are any suggestions for new features you would like to see added,
 please let me know and I will consider implementing them in future versions.
 
-Good luck in your coding :)
+Good luck coding :)

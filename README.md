@@ -17,7 +17,6 @@ index.max.html:
   <!-- title -->
   <h2>Sushi:</h2>
   <p>Great with soy sauce!</p>
-  <!-- end of section -->
 </section>
 <script>
   /* Mine is the Frozen Sunbeam from Dragon King's Daughter! */
@@ -27,8 +26,10 @@ index.max.html:
 
 index.html:
 ```html
-<section><h2>Sushi:</h2><p>Great with soy sauce!</p></section><script>alert('What\'s your favorite sushi roll?');</script>
+<section><!-- title --><h2>Sushi:</h2><p>Great with soy sauce!</p></section><script>alert('What\'s your favorite sushi roll?');</script>
 ```
+
+Notice that this minifier does not remove HTML comments. This is due to the possibility of accidentally removing CDATA blocks or literal text blocks.
 
 The website-minifier plugin can be activated by selecting
 "Packages > website-minifier > minify" in the menu, or by pressing CTRL+ALT+M.

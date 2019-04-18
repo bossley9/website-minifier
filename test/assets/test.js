@@ -1,7 +1,7 @@
 
 // does this work??
 
-document.documentElement.style.backgroundColor = 'lightblue';
+document.body.style.backgroundColor = 'lightblue';
 
 /* will this property  still be applied     after
 the minify         process occurs?
